@@ -44,7 +44,7 @@ $ASCIIBanner = @"
 "@
 Write-Host $ASCIIBanner
 Write-Host "Version: $Version"
-Write-Host "By twitter: @BertJanCyber, Github: Bert-JanP"
+Write-Host "By BertJanCyber/Bert-JanP: mofified by Nat nat@davaosecurity.com"
 Write-Host "===========================================`n"
 
 $IsAdmin = ([Security.Principal.WindowsPrincipal] `
