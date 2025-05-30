@@ -52,11 +52,11 @@ $IsAdmin = ([Security.Principal.WindowsPrincipal] `
 ).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
 
 if ($IsAdmin) {
-    Write-Host "DFIR Session starting as Administrator..."
+    Write-Host "DFIR Session starting as Administrator. This may take some time......"
 }
 else {
     Write-Host "No Administrator session detected. For the best performance run as Administrator. Not all items can be collected..."
-    Write-Host "DFIR Session starting..."
+    Write-Host "DFIR Session starting without Administrator session. This will be quicker but less informative........"
 }
 
 Write-Host "Creating output directory..."
