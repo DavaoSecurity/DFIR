@@ -29,7 +29,7 @@
 #>
 
 param(
-        [Parameter(Mandatory=$false)][int]$sw = 2 # Defines the custom search window, this is done in days.
+        [Parameter(Mandatory=$false)][int]$sw = 90 # Defines the custom search window, this is done in days.
     )
 
 
